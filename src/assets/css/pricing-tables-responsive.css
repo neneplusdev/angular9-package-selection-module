@@ -1,0 +1,41 @@
+@media only screen and (max-width: 991px) {
+	.section-bg {
+		background-color: #f6f6f6;
+	}
+	
+	.plan-tables-1 > div:nth-last-child(-n + 1){
+	    margin: 30px auto auto auto;
+	}
+	
+}
+@media only screen and (max-width: 767px) {
+	.plan-padding {
+		padding: 0 15px;
+	}
+
+	.plan-style-1{
+		max-width: 400px;
+	}
+	.plan-style-1 .plan-price .price {
+		font-size: 50px;
+	}
+	.plan-style-1 .plan-header .plan-title {
+		margin: -30px 0 14px 0;
+	}
+	.plan-style-1 .plan-price .price {
+		margin-bottom: -6px;
+	}
+	.plan-tables-1 > div:nth-last-child(-n + 2) {
+	    margin: 30px auto auto auto;
+	}
+
+}
+@media only screen and (max-width: 576px) {
+	.plan-style-1 {
+		max-width: 350px;
+	}
+	.plan-style-1 .plan-price .price {
+		font-size: 48px;
+	}
+
+}

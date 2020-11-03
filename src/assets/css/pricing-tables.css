@@ -1,0 +1,305 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{	
+	font-family: 'Lato', sans-serif;
+}
+h2{
+	margin-top: -5px;
+	font-weight: 600;
+    color: #555;
+}
+.global-title {
+	color: #fff;
+}
+.global-title-p {
+	padding-bottom: 20px;
+}
+.pp-section{
+    padding: 100px 0 85px 0;
+}
+.section-header{
+	margin-bottom: 35px;
+}
+.section-header p{
+	color: #777;
+}
+.section-bg{
+	background-color: #fbfbfb;
+}
+.section-bg-img{
+	/* background-image: url(../img/plan-bg-4.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .5);
+}
+.plan-padding {
+    padding: 0 1px;
+}
+.plan-margin {
+	margin-right: 1px;
+}
+
+.plan-header .plan-title, .plan-price .price, .plan-list li, .plan-button{
+	font-family: 'Lato', sans-serif;
+}
+.txt-light {
+	opacity: .2 !important;
+}
+.btn-disable {
+	opacity: .2 !important;
+	/* pointer-events: none; */
+	cursor: no-drop;
+}
+
+.plan-style-1{
+    margin: auto;
+	overflow: hidden;
+    position: relative;
+	text-align: center;
+	box-shadow: 0px 0px 30px #eee;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.plan-style-1-bg-blue {
+	background: linear-gradient(135deg, #35a1cd, #4258c6, #35a1cd);
+	box-shadow: 0px 0px 30px #35a1cd;
+	background-size: 300% 175%;
+}
+.plan-style-1-bg-blue:hover {
+	background-position: bottom;
+}
+.plan-style-1-bg-pink {
+	background: linear-gradient(135deg, #fb6a44, #fa2b7f, #fb6a44);
+	background-size: 300% 175%;
+	box-shadow: 0px 0px 30px #fb6a44;
+	
+}
+.plan-style-1-bg-pink:hover {
+	background-position: bottom;
+}
+.plan-style-1-bg-purple {
+	background: linear-gradient(135deg, #70439c, #431b6b, #70439c);
+	background-size: 300% 175%;
+	box-shadow: 0px 0px 30px #70439c;
+	
+}
+.plan-style-1-bg-purple:hover {
+	background-position: bottom;
+}
+.plan-style-1 .plan-header{
+    margin: 30px 30px 0 30px;
+    padding: 30px 0 20px 0;
+	position: relative;
+	border: 2px solid #fff;
+}
+.plan-style-1 .plan-header:after{
+	content: "";
+    display: block;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.plan-style-1 .plan-header .plan-title{
+	margin: -30px 0 26px 0;
+	color: #f7f7f7;
+	line-height: 40px;
+    font-size: 20px;
+	font-weight: 400;
+	background-color: rgba(255, 255, 255, .2);
+}
+.plan-style-1 .plan-price .price {
+	margin-bottom: 5px;
+}
+.plan-style-1 .plan-price .price .big-plan-price{
+	margin: 0;
+	font-size: 55px;
+    font-weight: 900;
+	line-height: 46px;
+    color: #fff;
+}
+.plan-style-1 .plan-price .price span{
+	padding: 0 5px;
+	font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.plan-style-1 .plan-list{
+    padding: 30px 0 20px 0;
+    margin-bottom: 0;
+	position: relative;
+	z-index: 1;
+}
+.plan-style-1 .plan-list li{
+    margin: 0 30px;
+	position: relative;
+    list-style-type: none;
+    color: #ececec;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+	text-align: left;
+    letter-spacing: 0.02rem;
+}
+.plan-style-1 .plan-list li .one_price {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    float: right;
+    opacity: 0.7;
+}
+.plan-style-1 .plan-list li i{
+    margin-right: 5px;
+    position: relative;
+    font-size: 13px;
+    line-height: 42px;
+}
+.plan-style-1 .plan-list li i.far.fa-times-circle{
+	color: red;
+}
+.plan-style-1 .plan-list .tooltip-info{
+	cursor: pointer;
+}
+.plan-style-1 .plan-list .tooltip-hover-text{
+	color: #fff;
+	font-weight: 600;
+	border-bottom: 1px dotted #fff;
+}
+.plan-style-1 .tooltip-info .tooltiptext{
+	visibility: hidden;
+	width: 150px;
+	background-color: #fff;
+	font-size: 12px;
+	letter-spacing: 0.02rem;
+	color: #444;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 2;
+	bottom: 43px;
+    left: 45%;
+	margin-left: -60px;
+	border: 1px solid #fff;
+}
+.plan-style-1 .tooltip-info .tooltiptext::after{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #fff transparent transparent transparent;
+}
+.plan-style-1 .tooltip-info:hover .tooltiptext{
+	visibility: visible;
+}
+.plan-style-1 .plan-bottom{
+	padding: 8px 0 40px 0;
+	position:relative;
+	overflow:hidden;
+}
+.plan-style-1 .plan-button{
+    padding: 10px 20px;
+	font-size: 14px;
+    color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-size: 300% 100%;
+	border: 2px solid #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.plan-style-1 .plan-button:hover{
+	background-position: 100% 0;
+	background-color: #fff;
+    color: #444;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.plan-style-1 .checkbox-lable {
+	display: block;
+	position: relative;
+	padding: 2px 10px 2px 40px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.08);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.plan-style-1 .checkbox-lable:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.plan-style-1 .checkbox-lable:hover .checkmark {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.plan-style-1 .checkbox-lable:hover input ~ .checkmark:after {
+	color: red !important;
+}
+.plan-style-1 .checkbox-lable input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.plan-style-1 .checkmark {
+	position: absolute;
+	top: 9px;
+	left: 10px;
+	height: 21px;
+	width: 21px;
+	border: 2px solid #fff;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.plan-style-1 .checkbox-lable:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+.plan-style-1 .checkbox-lable input:checked ~ .checkmark {
+	background-color: transparent;
+}
+.plan-style-1 .checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+.plan-style-1 .checkbox-lable input:checked ~ .checkmark:after {
+	display: block;
+}
+.plan-style-1 .checkbox-lable .checkmark:after {
+	left: 6px;
+	top: 3px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
